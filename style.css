@@ -1,0 +1,57 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #343a40; /* Bootstrap dark color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+/* Video Section */
+.top-left iframe {
+    border-radius: 10px;
+}
+
+/* Image Gallery Styles */
+.image-gallery img {
+    margin-bottom: 15px;
+}
+
+.thumbnail-gallery img {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail-gallery img:hover {
+    transform: scale(1.1);
+    border-color: #007bff;
+}
+
+/* Right Section: Center Vertically */
+.right {
+    min-height: 315px; /* Match iframe height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text Section */
+.bottom-left {
+    text-align: center;
+    margin-top: 20px;
+}
